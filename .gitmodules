@@ -1,0 +1,6 @@
+[submodule "assets/extras/utility"]
+	path = assets/extras/utility
+	url = git@github.com:responsiv/utility.git
+[submodule "assets/extras/foundationstrap"]
+	path = assets/extras/foundationstrap
+	url = git@github.com:responsiv/foundationstrap.git
