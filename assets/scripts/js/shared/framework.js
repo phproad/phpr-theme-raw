@@ -24,6 +24,7 @@
 @require ../../../extras/foundationstrap/bootstrap/js/bootstrap-scrollspy.js;
 
 // Utility
+@require ../../../extras/utility/js/custom.modernizr.js;
 @require ../../../extras/utility/js/jquery.ui.widget.js;
 @require ../../../extras/utility/js/jquery.gmap3.js;
 @require ../../../extras/utility/js/jquery.fileupload.js;
@@ -39,6 +40,9 @@
 @require ../../../extras/utility/js/jquery.utility.statusbar.js;
 @require ../../../extras/utility/js/jquery.utility.scrollbar.js;
 @require ../../../extras/utility/js/jquery.utility.uploader.js;
+@require ../../../extras/utility/js/jquery.utility.autogrow.js;
+@require ../../../extras/utility/js/jquery.utility.portfolio.js;
+@require ../../../extras/utility/js/jquery.utility.country_select.js;
 @require ../../../extras/utility/js/utility.js;
 
 // Ahoy
