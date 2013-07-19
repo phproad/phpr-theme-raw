@@ -9,34 +9,26 @@
     <title><?=h($this->page->title_name) ?> - <?=c('site_name')?></title>
     <?=$this->display_partial('site:head')?>
 </head>
-<body>
+<body class="<?=$this->page->template_code?> <?=$this->page->page_code?>">
 
-    <div class="container" id="header">
-        <div class="row">
-            <div class="twelve columns">
-                <?=$this->display_partial('site:header')?>
-            </div>
+    <div class="wrapper" id="site-header">
+        <div class="container">
+            <?=$this->display_partial('site:header')?>
         </div>
     </div>
-    <div class="container" id="mainnav">
-        <div class="row">
-            <div class="twelve columns">
-                <?=$this->display_partial('site:main_menu')?>
-            </div>
+    <div class="wrapper" id="site-mainnav">
+        <div class="container">
+            <?=$this->display_partial('site:main_menu')?>
         </div>
     </div>
-    <div class="container" id="content">
-        <div class="row">
-            <div class="twelve columns">
-                <?=$this->display_page()?>
-            </div>
+    <div class="wrapper" id="site-content">
+        <div class="container">
+            <?=$this->display_page()?>
         </div>
     </div>
-    <div class="container" id="footer">
-        <div class="row">       
-            <div class="twelve columns">
-                <?=$this->display_partial('site:footer')?>
-            </div>
+    <div class="wrapper" id="site-footer">
+        <div class="container">
+            <?=$this->display_partial('site:footer')?>
         </div>
     </div>
 

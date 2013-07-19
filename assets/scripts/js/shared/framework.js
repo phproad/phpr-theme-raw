@@ -45,14 +45,6 @@
 @require ../../../extras/utility/js/jquery.utility.country_select.js;
 @require ../../../extras/utility/js/utility.js;
 
-// Ahoy
-@require ../../../extras/ahoy/js/jquery.validate.js;
-@require ../../../extras/ahoy/js/jquery.validate.ext.js;
-@require ../../../extras/ahoy/js/ahoy.post.js;
-@require ../../../extras/ahoy/js/ahoy.form.js;
-@require ../../../extras/ahoy/js/ahoy.validation.js;
-@require ../../../extras/ahoy/js/ahoy.js;
-
 // App
 @require common.js
 
